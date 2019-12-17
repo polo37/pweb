@@ -1,3 +1,3 @@
 # pweb
 
-[site Loups](sitewebsurlesloups.html)
+[site Loups](https://polo37.github.io/pweb/)
