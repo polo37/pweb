@@ -1,0 +1,52 @@
+@keyframes tourni {
+ from{ transform: rotateX(0deg); }
+ to{ transform: rotateX(360deg); }
+}
+@keyframes spiral {
+ from{ transform: rotateY(0deg); }
+ to{ transform: rotateY(360deg); }
+}
+@keyfram an_colors{
+			0%{color: rgb(255, 0, 0);				}
+			33%{color: rgb(0, 255, 0);			}
+			66%{color: rgb(0, 0, 255);			}
+			100%{color: rgb(255, 0, 0,);			}
+			
+			}		
+body{
+				animation: an_color 5s linear infinite;
+				text-align: center;
+				font-size: 25px;
+				background-image: url("EtoileFlash.gif");
+}
+#but{
+					box-shadow: 4px 4px 7px; 
+				border-radius: 20px;
+				border: 5px solid aqua;
+				animation: an_color 3s linear infinite;
+				text-align: center;
+				font-size;
+}
+.tototo
+{
+				color: rgb(255, 255, 255);
+				text-align: center;
+}
+.roro
+{
+				color: white;	
+				text-align: center;
+				animation: an 3s linear infinite, tourni 3s linear infinite ;
+}
+.tirlipinpon
+{
+	color: aqua;
+	margin-left:  400px;
+	margin-right: 400px;
+	font-size:20 px;
+	text-align: center;
+	box-shadow: 6px 6px 10px; 
+	border-radius: 20px;
+	border: 3px aqua solid; 
+	border-width: thick;
+}
